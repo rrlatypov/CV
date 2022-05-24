@@ -1,0 +1,84 @@
+
+
+background-image:url
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(194, 181, 241, .5), rgba(64, 206, 21, 0.5)), url(../images/тестировщик.jpg);
+ 
+  background-size: cover;
+  height: 100vh;
+   padding: 3rem 10rem;
+  background-attachment: fixed;
+  justify-content: space-between;
+  
+}
+
+.container {
+  padding: 0 10px;
+  margin-left: 80px;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 1.2em;
+  position: relative;
+  color:#a3ec2c;
+}
+
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#320763;
+}
+
+  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 5px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+button {
+  font-size: 2rem;
+  background-color: rgba(53, 10, 146, 0.52);
+  padding: 1rem 3rem;
+  border: 3px solid rgba(187, 210, 221, 0.5);
+  border-radius: 20%;
+  }
+  button:hover {
+  background-color: #700;
+    color: azure;
+  }
+ 
+
