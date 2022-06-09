@@ -3,6 +3,6 @@ const button = document.querySelector('button');
 
 /* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
 button.addEventListener('click', function() {
-	alert('Только вперед! И только все вместе!!!')
+	alert('Да здравствует то, благодаря чему мы – несмотря ни на что!')
 }
 )
